@@ -1,1 +1,5 @@
-FlaskAppForCsv
+# Please visit the following address for deployed app
+https://flaskappproject-318410.el.r.appspot.com/
+
+# Through Dockerized Container in Google Kubernetes cluster
+http://34.134.124.18/
