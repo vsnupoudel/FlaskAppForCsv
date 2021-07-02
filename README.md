@@ -8,3 +8,4 @@ http://34.134.124.18/
 
 ## references
 * https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app#console
+* https://cloud.google.com/appengine/docs/standard/python3/building-app/deploying-web-service
