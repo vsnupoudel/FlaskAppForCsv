@@ -17,10 +17,15 @@ def upload():
 def data():
     if request.method == 'POST':
         f = request.files['file']
-        hls = HLSpd(f)
-        numericStats = hls.print_stats_numeric()
-        catStats =  hls.print_stats_numeric()
-        return render_template('data.html', data= [numericStats, catStats]) #tfdvStats
+        try:
+            hls = HLSpd(f)
+            numericStats = hls.print_stats_numeric()
+            catStats =  hls.print_stats_object()
+        except:
+            message = "Not a valid file type, try a comma separated file"
+            return render_template('data.html', data=[message])
+        else:
+            return render_template('data.html', data= [numericStats, catStats]) #tfdvStats
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
