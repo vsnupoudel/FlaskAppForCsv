@@ -4,7 +4,7 @@
 
 ## Through Dockerized Container in Google Kubernetes cluster
 **This version is not the latest**
-[Cntainerized Deployment Link](http://34.134.124.18/)
+[Containerized Deployment Link](http://35.225.89.221/)
 
 ## ML/DL Task is in the notebook above
 [Notebook](https://github.com/vsnupoudel/FlaskAppForCsv/blob/c9a81a101ac457614b610360204a4ba4efe753bc/LfTask_EDAandDNN.ipynb)
