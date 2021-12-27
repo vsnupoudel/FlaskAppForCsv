@@ -1,5 +1,8 @@
 # Please visit the following address for deployed app
-## Note: Links now not working due to expired GCP Subscription.
+## Deployed in AWS Lightsail
+[AWS Lightsail Link](https://flaskapp.9u40uvbqs9hni.us-east-1.cs.amazonlightsail.com/)
+
+## Note: GCP Links now not working due to expired GCP Subscription.
 ## In Google App Engine - Latest version
 
 [App Engine Link](https://flaskappproject-318410.el.r.appspot.com/)
