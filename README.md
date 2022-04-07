@@ -1,4 +1,6 @@
-End to End implementation for a Flask App in Google Kubernetes Engine. The Notebook has EDA, model selection and training for a unclean structured text data. DNN and Combination of PCA and RandomForest is used for classification.
+End to End implementation for a Flask App in Google Kubernetes Engine. 
+The Notebookv(LfTask_EDAandDNN.ipynb) has EDA, model selection and training for a unclean structured text data.
+DNN and Combination of PCA and RandomForest is used for classification.
 
 # Please visit the following address for deployed app
 ## Deployed in AWS Lightsail
